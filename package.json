@@ -1,0 +1,26 @@
+{
+  "name": "svbh",
+  "version": "1.0.0",
+  "description": "Silicon Valley Blockchain Hackathon!",
+  "main": "index.js",
+  "scripts": {
+    "rpc": "./node_modules/.bin/testrpc",
+    "truffle": "./node_modules/.bin/truffle",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jumde/svbh.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jumde/svbh/issues"
+  },
+  "homepage": "https://github.com/jumde/svbh#readme",
+  "dependencies": {
+    "ethereumjs-testrpc": "^6.0.3",
+    "testrpc": "0.0.1",
+    "truffle": "^4.1.12"
+  }
+}
