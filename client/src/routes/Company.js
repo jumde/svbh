@@ -27,7 +27,26 @@ export default () => (
 	    	<List divided verticalAlign='middle' className="margin-bottom-120">
 			    <List.Item>
 			      <List.Content floated='right'>
-			        <Button primary>Donate</Button>
+			        <Button primary onClick={()=>{
+                        return fetch('http://localhost:8080/api/completerequest/0', {
+                            method: 'POST',
+                                headers: {
+                                    Accept: 'application/json',
+                                    'Content-Type': 'application/json',
+                                },
+                                body: JSON.stringify({
+                                    foo: 'bar',
+                                }),
+                        })
+                            .then((response) => response.json())
+                            .then((responseJson) => {
+                                console.log(responseJson)
+                            })
+                            .catch((error) => {
+                                console.error(error);
+                            });
+
+                    }}>Donate</Button>
 			      </List.Content>
 			      <List.Content floated='right'>
 			        <p className="price">2 ETH</p>
@@ -87,6 +106,10 @@ export default () => (
 */
 
 
+// export function Welcome(props) {
+// 	alert("FOO");
+//     // return <h1>Hello, {props.name}</h1>;
+// }
 
 // import React from 'react';
 
