@@ -20,7 +20,12 @@
   "homepage": "https://github.com/jumde/svbh#readme",
   "dependencies": {
     "ethereumjs-testrpc": "^6.0.3",
+<<<<<<< HEAD
     "ganache-cli": "^6.1.3",
+=======
+    "grommet": "^1.10.1",
+    "grommet-cli": "^5.1.2",
+>>>>>>> routes done
     "testrpc": "0.0.1",
     "truffle": "^4.1.12",
     "web3": "^1.0.0-beta.34"
