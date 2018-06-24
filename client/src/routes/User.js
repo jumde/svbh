@@ -6,7 +6,7 @@ import { Image, List } from 'semantic-ui-react'
 //import image from './images/bill-melinda-gates.jpeg';
 
 export default () => (
-	<div>	
+	<div>
 		<Grid.Row>
 			<Link to="/"><img className="back-button" src='/images/left-arrow.svg'/></Link>
 			{/*<div className="hero">	*/}
@@ -18,6 +18,7 @@ export default () => (
 		<Grid centered columns={2}>
 	    <Grid.Column>
 	    	<h1>Causes you have supported</h1>
+            <h2> Current Balance: </h2>
 			<h3> Bill and Melinda Gates Foundation</h3>
 	    	<List divided verticalAlign='middle' className="margin-bottom-120">
 			    <List.Item>
@@ -30,9 +31,6 @@ export default () => (
 			      <List.Content>Books <a target="_blank" href="https://www.homedepot.com/">(Home Depot)</a></List.Content>
 			    </List.Item>
 			    <List.Item>
-			      {/*<List.Content floated='right'>*/}
-			        {/*<Button primary>Donate</Button>*/}
-			      {/*</List.Content>*/}
 			      <List.Content floated='right'>
 			        <p className="price">5 ETH</p>
 			      </List.Content>
@@ -60,6 +58,8 @@ export default () => (
 		</ul>
 	</div>
 */
+x``
+
 
 
 // export function Welcome(props) {

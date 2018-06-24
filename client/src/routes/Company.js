@@ -9,7 +9,7 @@ export default () => (
 	<div>	
 		<Grid.Row>
 			<Link to="/"><img className="back-button" src='/images/left-arrow.svg'/></Link>
-			<Link to="/profile"><img className="profile-button" src='/images/profile.svg'/></Link>
+			<Link to="/user"><img className="profile-button" src='/images/profile.svg'/></Link>
 			<div className="hero">	
 				<div className="dark-frame"></div>
 				<Image className="image-hero" src='/images/bill-melinda-gates.jpg' size='massive' />
