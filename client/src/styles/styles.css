@@ -51,3 +51,26 @@
 	font-weight: 800;
 	font-size: 24px;
 }
+
+.floated {
+	margin-top: 12px !important;
+}
+
+.item {
+	padding-top: 13px !important;
+	margin-bottom: 8px !important;
+}
+
+.margin-bottom-120 {
+	margin-bottom: 120px !important;
+}
+
+.back-button {
+	position: absolute;
+	top: 0;
+	z-index: 2;
+	width: 36px;
+	top: 24px;
+	margin-left: 36px;
+	cursor: pointer;
+}
