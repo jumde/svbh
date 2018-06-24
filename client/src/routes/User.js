@@ -8,22 +8,20 @@ import { Image, List } from 'semantic-ui-react'
 export default () => (
 	<div>
 		<Grid.Row>
-			<Link to="/"><img className="back-button" src='/images/left-arrow.svg'/></Link>
-			{/*<div className="hero">	*/}
-				{/*<div className="dark-frame"></div>*/}
-				{/*/!*<Image className="image-hero" src='/images/bill-melinda-gates.jpg' size='massive' />*!/*/}
-	    	{/*<h1 className="image-hero-text">Bill & Melinda Gates Foundation</h1>*/}
-    	{/*</div>*/}
-    </Grid.Row>
+			<Link to="/company"><img className="back-button" src='/images/left-arrow-black.svg'/></Link>
+			<div className="hero">	
+				<div className="profile-container">
+					<Image className="profile-black" src='/images/profile-black2.png'/>
+				</div>
+	    	</div>
+	    </Grid.Row>
 		<Grid centered columns={2}>
 	    <Grid.Column>
-	    	<h1>Causes you have supported</h1>
+	    	<h1 className="profile-title">Causes you have supported</h1>
             <h2> Current Balance: 8.42 ETH</h2>
 			<h3> Bill and Melinda Gates Foundation</h3>
 	    	<List divided verticalAlign='middle' className="margin-bottom-120">
 			    <List.Item>
-			      <List.Content floated='right'>
-			      </List.Content>
 			      <List.Content floated='right'>
 			        <p className="price">2 ETH</p>
 			      </List.Content>
