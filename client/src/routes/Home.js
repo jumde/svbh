@@ -8,38 +8,45 @@ import { Image, List } from 'semantic-ui-react'
 export default () => (
 	<div>	
 		<Grid.Row>
-			<Image className="teste"src='/images/bill-melinda-gates.jpg' size='massive' />
+			<Image className="teste" src='/images/bill-melinda-gates.jpg' size='massive' />
     	<h1>Bill & Melinda Gates Foundation</h1>
     </Grid.Row>
 		<Grid centered columns={2}>
 	    <Grid.Column>
+	    	<p className="body">Bill & Melinda Gates Foundation (BMGF), also known as the Gates Foundation, 
+	    	is a private foundation founded by Bill and Melinda Gates. It was launched in 2000, 
+	    	and is said to be the largest private foundation in the US, holding $38 billion in assets.
+	    	The primary aims of the foundation are, globally, to enhance healthcare and reduce extreme poverty, and in America, 
+	    	to expand educational opportunities and access to information technology. The foundation, based in Seattle, Washington, 
+	    	is controlled by its three trustees: Bill and Melinda Gates, and Warren Buffett. Other principal officers include Co-Chair 
+	    	William H. Gates, Sr. and Chief Executive Officer Susan Desmond-Hellmann.</p>
 	    	<List divided verticalAlign='middle'>
 			    <List.Item>
 			      <List.Content floated='right'>
 			        <Button>Donate</Button>
 			      </List.Content>
-			      <Image avatar src='/images/books.jpg' />
+			      <Image className="donation-image" avatar src='/images/books.jpg' />
 			      <List.Content>Books</List.Content>
 			    </List.Item>
 			    <List.Item>
 			      <List.Content floated='right'>
 			        <Button>Donate</Button>
 			      </List.Content>
-			      <Image avatar src='/images/tables.jpeg' />
+			      <Image className="donation-image" avatar src='/images/tables.jpeg' />
 			      <List.Content>Tables</List.Content>
 			    </List.Item>
 			    <List.Item>
 			      <List.Content floated='right'>
 			        <Button>Donate</Button>
 			      </List.Content>
-			      <Image avatar src='/images/paper.jpg' />
+			      <Image className="donation-image" avatar src='/images/paper.jpg' />
 			      <List.Content>Sheets</List.Content>
 			    </List.Item>
 			    <List.Item>
-			      <List.Content floated='right'>
+			      <List.Content floated='right' verticalAlign='middle'>
 			        <Button>Donate</Button>
 			      </List.Content>
-			      <Image avatar src='/images/pens.jpeg' />
+			      <Image className="donation-image" avatar src='/images/pens.jpeg' />
 			      <List.Content>Pens</List.Content>
 			    </List.Item>
 			  </List>
