@@ -18,7 +18,7 @@ export default () => (
 		<Grid centered columns={2}>
 	    <Grid.Column>
 	    	<h1>Causes you have supported</h1>
-            <h2> Current Balance: </h2>
+            <h2> Current Balance: 8.42 ETH</h2>
 			<h3> Bill and Melinda Gates Foundation</h3>
 	    	<List divided verticalAlign='middle' className="margin-bottom-120">
 			    <List.Item>
@@ -58,7 +58,6 @@ export default () => (
 		</ul>
 	</div>
 */
-x``
 
 
 
