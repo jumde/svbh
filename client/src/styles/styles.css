@@ -67,11 +67,19 @@
 
 .back-button {
 	position: absolute;
-	top: 0;
 	z-index: 2;
 	width: 36px;
 	top: 24px;
 	margin-left: 36px;
+	cursor: pointer;
+}
+
+.profile-button {
+	position: absolute;
+	z-index: 2;
+	width: 24px;
+	top: 24px;
+	right: 36px;
 	cursor: pointer;
 }
 
@@ -87,4 +95,18 @@
 
 .card {
 	margin-bottom: 36px;
+}
+
+.principal img { 
+	margin-top: 120px;
+	margin-bottom: 120px;
+}
+
+.gray-background {
+	height: 800px;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	z-index: -1;
+	background-color: #F6F6F6;
 }
