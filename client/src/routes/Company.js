@@ -29,6 +29,7 @@ export default () => (
 			    <List.Item>
 			      <List.Content floated='right'>
 			        <Button primary onClick={()=>{
+                        alert("You have successfully donated 2 ETH to Bill and Melinda Gates Foundation!")
                         return fetch('http://localhost:8080/api/completerequest/0', {
                             method: 'POST',
                                 headers: {
@@ -41,7 +42,6 @@ export default () => (
                         })
                             .then((response) => response.json())
                             .then((responseJson) => {
-                                alert("You have successfully donated 2 ETH to Bill and Melinda Gates Foundation!")
                                 console.log(responseJson)
                             })
                             .catch((error) => {
@@ -54,7 +54,7 @@ export default () => (
 			        <p className="price">2 ETH</p>
 			      </List.Content>
 			      <Image className="donation-image" avatar src='/images/books.jpg' />
-			      <List.Content>Books <a target="_blank" href="https://www.homedepot.com/">(Home Depot)</a></List.Content>
+			      <List.Content>Books <a target="_blank" href="https://www.amazon.com/">(Amazon)</a></List.Content>
 			    </List.Item>
 			    <List.Item>
 			      <List.Content floated='right'>
@@ -64,7 +64,7 @@ export default () => (
 			        <p className="price">5 ETH</p>
 			      </List.Content>
 			      <Image className="donation-image" avatar src='/images/tables.jpeg' />
-			      <List.Content>Tables <a target="_blank" href="https://www.staples.com/">(Staples)</a></List.Content>
+			      <List.Content>Tables <a target="_blank" href="https://www.ikea.com/">(IKEA)</a></List.Content>
 			    </List.Item>
 			    <List.Item>
 			      <List.Content floated='right'>
@@ -74,7 +74,7 @@ export default () => (
 			        <p className="price">1 ETH</p>
 			      </List.Content>
 			      <Image className="donation-image" avatar src='/images/paper.jpg' />
-			      <List.Content>Sheets <a target="_blank" href="https://www.homedepot.com/">(Home Depot)</a></List.Content>
+			      <List.Content>School stationery <a target="_blank" href="https://www.staples.com/">(Staples)</a></List.Content>
 			    </List.Item>
 			    <List.Item>
 			      <List.Content floated='right'>
@@ -84,7 +84,7 @@ export default () => (
 			        <p className="price">3 ETH</p>
 			      </List.Content>
 			      <Image className="donation-image" avatar src='/images/pens.jpeg' />
-			      <List.Content>Pens <a target="_blank" href="https://www.homedepot.com/">(Home Depot)</a></List.Content>
+			      <List.Content>Pens <a target="_blank" href="https://www.homedepot.com/">(Staples)</a></List.Content>
 			    </List.Item>
 			  </List>
 	    </Grid.Column>

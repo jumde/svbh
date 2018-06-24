@@ -28,14 +28,14 @@ export default () => (
 			        <p className="price">2 ETH</p>
 			      </List.Content>
 			      <Image className="donation-image" avatar src='/images/books.jpg' />
-			      <List.Content>Books <a target="_blank" href="https://www.homedepot.com/">(Home Depot)</a></List.Content>
+                    <List.Content>Books <a target="_blank" href="https://www.amazon.com/">(Amazon)</a></List.Content>
 			    </List.Item>
 			    <List.Item>
 			      <List.Content floated='right'>
 			        <p className="price">5 ETH</p>
 			      </List.Content>
 			      <Image className="donation-image" avatar src='/images/tables.jpeg' />
-			      <List.Content>Tables <a target="_blank" href="https://www.staples.com/">(Staples)</a></List.Content>
+                    <List.Content>Tables <a target="_blank" href="https://www.ikea.com/">(IKEA)</a></List.Content>
 			    </List.Item>
 
 			  </List>
