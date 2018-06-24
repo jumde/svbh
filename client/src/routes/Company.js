@@ -33,7 +33,7 @@ export default () => (
 			        <p className="price">$1000</p>
 			      </List.Content>
 			      <Image className="donation-image" avatar src='/images/books.jpg' />
-			      <List.Content>Books</List.Content>
+			      <List.Content>Books <a href="https://www.w3schools.com">(Home Depot)</a></List.Content>
 			    </List.Item>
 			    <List.Item>
 			      <List.Content floated='right'>
