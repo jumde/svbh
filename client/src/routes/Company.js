@@ -30,40 +30,40 @@ export default () => (
 			        <Button primary>Donate</Button>
 			      </List.Content>
 			      <List.Content floated='right'>
-			        <p className="price">$1000</p>
+			        <p className="price">2 ETH</p>
 			      </List.Content>
 			      <Image className="donation-image" avatar src='/images/books.jpg' />
-			      <List.Content>Books <a href="https://www.w3schools.com">(Home Depot)</a></List.Content>
+			      <List.Content>Books <a target="_blank" href="https://www.homedepot.com/">(Home Depot)</a></List.Content>
 			    </List.Item>
 			    <List.Item>
 			      <List.Content floated='right'>
 			        <Button primary>Donate</Button>
 			      </List.Content>
 			      <List.Content floated='right'>
-			        <p className="price">$800</p>
+			        <p className="price">5 ETH</p>
 			      </List.Content>
 			      <Image className="donation-image" avatar src='/images/tables.jpeg' />
-			      <List.Content>Tables</List.Content>
+			      <List.Content>Tables <a target="_blank" href="https://www.staples.com/">(Staples)</a></List.Content>
 			    </List.Item>
 			    <List.Item>
 			      <List.Content floated='right'>
 			        <Button primary>Donate</Button>
 			      </List.Content>
 			      <List.Content floated='right'>
-			        <p className="price">$10000</p>
+			        <p className="price">1 ETH</p>
 			      </List.Content>
 			      <Image className="donation-image" avatar src='/images/paper.jpg' />
-			      <List.Content>Sheets</List.Content>
+			      <List.Content>Sheets <a target="_blank" href="https://www.homedepot.com/">(Home Depot)</a></List.Content>
 			    </List.Item>
 			    <List.Item>
 			      <List.Content floated='right'>
 			        <Button primary>Donate</Button>
 			      </List.Content>
 			      <List.Content floated='right'>
-			        <p className="price">$500</p>
+			        <p className="price">3 ETH</p>
 			      </List.Content>
 			      <Image className="donation-image" avatar src='/images/pens.jpeg' />
-			      <List.Content>Pens</List.Content>
+			      <List.Content>Pens <a target="_blank" href="https://www.homedepot.com/">(Home Depot)</a></List.Content>
 			    </List.Item>
 			  </List>
 	    </Grid.Column>

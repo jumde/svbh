@@ -9,10 +9,32 @@ export default () => (
 		<Grid centered columns={2}>
 	    <Grid.Column>
 				<Grid.Row>
-					<div className="hero">	
+					<Link to="/company">	
+						<div className="hero card">	
+							<div className="dark-frame"></div>
+							<Image className="image-hero" src='/images/bill-melinda-gates.jpg' size='massive'/>
+				    	<h1 className="image-hero-text">Bill & Melinda Gates Foundation</h1>
+			    	</div>
+		    	</Link>
+		    	<div className="hero card">	
 						<div className="dark-frame"></div>
-						<Image className="image-hero" src='/images/bill-melinda-gates.jpg' size='massive' />
-			    	<h1 className="image-hero-text">Bill & Melinda Gates Foundation</h1>
+						<Image className="image-hero" src='/images/american-civil-liberties-union.jpg' size='massive' />
+			    	<h1 className="image-hero-text">American Civil Liberties Union</h1>
+		    	</div>
+		    	<div className="hero card">	
+						<div className="dark-frame"></div>
+						<Image className="image-hero" src='/images/teach-for-america.jpg' size='massive' />
+			    	<h1 className="image-hero-text">Teach for America</h1>
+		    	</div>
+		    	<div className="hero card">	
+						<div className="dark-frame"></div>
+						<Image className="image-hero" src='/images/women-who-code.jpg' size='massive' />
+			    	<h1 className="image-hero-text">Women Who code</h1>
+		    	</div>
+		    	<div className="hero card">	
+						<div className="dark-frame"></div>
+						<Image className="image-hero" src='/images/raices.jpg' size='massive' />
+			    	<h1 className="image-hero-text">Raices</h1>
 		    	</div>
 		    </Grid.Row>
 	    </Grid.Column>
