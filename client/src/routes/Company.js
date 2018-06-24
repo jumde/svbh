@@ -41,6 +41,7 @@ export default () => (
                         })
                             .then((response) => response.json())
                             .then((responseJson) => {
+                                alert("You have successfully donated 2 ETH to Bill and Melinda Gates Foundation!")
                                 console.log(responseJson)
                             })
                             .catch((error) => {
