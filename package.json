@@ -20,6 +20,8 @@
   "homepage": "https://github.com/jumde/svbh#readme",
   "dependencies": {
     "ethereumjs-testrpc": "^6.0.3",
+    "grommet": "^1.10.1",
+    "grommet-cli": "^5.1.2",
     "testrpc": "0.0.1",
     "truffle": "^4.1.12"
   }
