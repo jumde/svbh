@@ -8,8 +8,11 @@ import { Image, List } from 'semantic-ui-react'
 export default () => (
 	<div>	
 		<Grid.Row>
-			<Image className="teste" src='/images/bill-melinda-gates.jpg' size='massive' />
-    	<h1>Bill & Melinda Gates Foundation</h1>
+			<div className="hero">	
+				<div className="dark-frame"></div>
+				<Image className="image-hero" src='/images/bill-melinda-gates.jpg' size='massive' />
+	    	<h1 className="image-hero-text">Bill & Melinda Gates Foundation</h1>
+    	</div>
     </Grid.Row>
 		<Grid centered columns={2}>
 	    <Grid.Column>
@@ -23,28 +26,40 @@ export default () => (
 	    	<List divided verticalAlign='middle'>
 			    <List.Item>
 			      <List.Content floated='right'>
-			        <Button>Donate</Button>
+			        <Button primary>Donate</Button>
+			      </List.Content>
+			      <List.Content floated='right'>
+			        <p className="price">$1000</p>
 			      </List.Content>
 			      <Image className="donation-image" avatar src='/images/books.jpg' />
 			      <List.Content>Books</List.Content>
 			    </List.Item>
 			    <List.Item>
 			      <List.Content floated='right'>
-			        <Button>Donate</Button>
+			        <Button primary>Donate</Button>
+			      </List.Content>
+			      <List.Content floated='right'>
+			        <p className="price">$800</p>
 			      </List.Content>
 			      <Image className="donation-image" avatar src='/images/tables.jpeg' />
 			      <List.Content>Tables</List.Content>
 			    </List.Item>
 			    <List.Item>
 			      <List.Content floated='right'>
-			        <Button>Donate</Button>
+			        <Button primary>Donate</Button>
+			      </List.Content>
+			      <List.Content floated='right'>
+			        <p className="price">$10000</p>
 			      </List.Content>
 			      <Image className="donation-image" avatar src='/images/paper.jpg' />
 			      <List.Content>Sheets</List.Content>
 			    </List.Item>
 			    <List.Item>
 			      <List.Content floated='right' verticalAlign='middle'>
-			        <Button>Donate</Button>
+			        <Button primary>Donate</Button>
+			      </List.Content>
+			      <List.Content floated='right'>
+			        <p className="price">$500</p>
 			      </List.Content>
 			      <Image className="donation-image" avatar src='/images/pens.jpeg' />
 			      <List.Content>Pens</List.Content>
