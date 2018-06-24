@@ -20,7 +20,9 @@
   "homepage": "https://github.com/jumde/svbh#readme",
   "dependencies": {
     "ethereumjs-testrpc": "^6.0.3",
+    "ganache-cli": "^6.1.3",
     "testrpc": "0.0.1",
-    "truffle": "^4.1.12"
+    "truffle": "^4.1.12",
+    "web3": "^1.0.0-beta.34"
   }
 }
