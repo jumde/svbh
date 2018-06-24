@@ -5,10 +5,11 @@ import { Grid } from 'semantic-ui-react';
 import { Image, List } from 'semantic-ui-react'
 
 export default () => (
-	<div>	
+	<div className="block-blackground">	
 		<Grid centered columns={2} className="principal">
+	    <div className="gray-background"></div>
 	    <Grid.Column>
-	      <Image src='/images/principal.png'/>
+	      <Image src='/images/principal2.png'/>
 	    </Grid.Column>
 	  </Grid>
 		<Grid centered columns={2}>
@@ -47,8 +48,6 @@ export default () => (
 	</div>
 );
 
-
-//<div className="gray-background"></div>
 
 /*
 	<div>	

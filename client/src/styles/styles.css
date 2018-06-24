@@ -103,10 +103,24 @@
 }
 
 .gray-background {
-	height: 800px;
+	height: 700px;
 	width: 100%;
 	position: absolute;
 	top: 0;
 	z-index: -1;
-	background-color: #F6F6F6;
+	background-color: #2185d0;
+}
+
+.block-blackground:after {
+	background-image: url("/images/blockchain.png");
+	background-size: 48px 48px;
+  	content: "";
+  	opacity: 0.04;
+  	top: 0;
+  	left: 0;
+  	bottom: 0;
+ 	right: 0;
+	position: absolute;
+	z-index: -2;
+	height: 2100px;
 }
